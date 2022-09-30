@@ -143,3 +143,72 @@
     font-size: 18px;
     text-align: center;
 }
+
+/* donet-plan-section */
+
+.donet-plan-section{
+    margin-top: 130px;
+    margin-bottom: ;
+}
+
+.donet-plan-section .donet-plan-contents h1{
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.donet-plan-section .donet-plan-contents p{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--moyla-color);
+    text-align: center;
+    width: 691px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.donet-plan-section .donet-plan-cards{
+    display: grid;
+    grid-template-columns: repeat(3,360px);
+    grid-template-rows: 352px;
+    grid-column-gap: 24px;
+    justify-content: center;
+}
+
+.donet-plan-section .donet-plan-cards img{
+    margin-left: 23px;
+    margin-top: 63.5px;
+}
+
+.donet-plan-section .donet-plan-cards h1{
+    font-family: var(--poppins);
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 23px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.donet-plan-section .donet-plan-cards p{
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--moyla-color);
+    width: 315px;
+    margin-left: 23px;
+}
+
+.donet-plan-section .donet-plan-cards .card-sky{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+.donet-plan-section .donet-plan-cards .card-red{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.donet-plan-section .donet-plan-cards .card-yellow{
+    background-color: #FFF4D6;
+    border-radius: 5px;
+}
