@@ -328,3 +328,27 @@
     cursor: pointer;
     border-radius: 0px 5px 5px 0px;
 }
+
+/* footer */
+.footer{
+    height: 177px;
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.footer .footer-content h1{
+    font-family: var(--lobster);
+    font-weight: 400;
+    font-size: 34px;
+    color: var(--primary-color);
+}
+.footer .footer-content p{
+    font-family: var(--manrope);
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 14px;
+    color: white;
+    text-align: center;
+}
