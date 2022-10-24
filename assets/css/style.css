@@ -148,7 +148,6 @@
 
 .donet-plan-section{
     margin-top: 130px;
-    margin-bottom: ;
 }
 
 .donet-plan-section .donet-plan-contents h1{
@@ -212,3 +211,47 @@
     background-color: #FFF4D6;
     border-radius: 5px;
 }
+
+/* depends-section */
+
+.depends-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.depends-section .depends-section-contect{
+    width: 493px;
+    height: 374px;
+    margin-right: 83px;
+}
+.depends-section .depends-section-contect h1{
+    font-family: var(--inter);
+    font-weight: 700px;
+    font-size: 45px;
+}
+.depends-section .depends-section-contect p{
+    font-family: var(--poppins);
+    font-weight: 400px;
+    font-size: 18px;
+    color: var(--moyla-color);
+    margin: 20px 0px 30px 0px;
+}
+.depends-section .depends-section-contect button{
+    width: 230px;
+    height: 56px;
+    background-color: var(--primary-color);
+    border: none;
+    font-family: var(--inter);
+    font-weight: 600px;
+    font-size: 20px;
+    color: white;
+}
+
+.depends-section .depends-left-section{
+    margin-right: 0px;
+    margin-left: 83px;
+}
+
