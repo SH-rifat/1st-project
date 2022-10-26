@@ -352,3 +352,294 @@
     color: white;
     text-align: center;
 }
+
+/* responsive */
+
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+    .donet-section .taka-section .taka > div {
+        width: 126px;
+    }
+
+    .donet-plan-section .donet-plan-cards {
+        grid-template-columns: repeat(3,300px);
+    }
+
+    .donet-plan-section .donet-plan-cards p {
+        width: 285px;
+    }
+
+    .depends-section .depends-section-contect {
+        width: 467px;
+    }
+
+    .header .header-contect p {
+        font-size: 11px;
+    }
+
+    .header .header-contect h1 {
+        font-size: 51px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .donet-section .taka-section .taka > div {
+        width: 69px;
+        font-size: 25px;
+    }
+
+    .donet-section .taka-input input {
+        width: 546px;
+    }
+
+    .donet-plan-section .donet-plan-cards {
+        grid-template-columns: repeat(3,237px);
+    }
+
+    .donet-plan-section .donet-plan-cards h1 {
+        font-size: 20px;
+    }
+
+    .donet-plan-section .donet-plan-cards p {
+        font-size: 13px;
+        width: 192px;
+    }
+
+    .depends-section-responsive-left {
+        flex-direction: column-reverse;
+    }
+
+    .depends-section-responsive-right{
+        flex-direction: column;
+    }
+
+    .depends-section .depends-section-contect {
+        margin-right: -30px;
+        width: 618px;
+        margin-top: 40px;
+    }
+
+    .depends-section .depends-left-section {
+        margin-left: 13px;
+    }
+
+    .update-section .update-section-card {
+        width: 756px;
+    }
+
+    .header .header-contect p {
+        font-size: 9px;
+    }
+
+    .header .header-contect h1 {
+        font-size: 43px;
+    }
+    
+  }
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .donet-section .taka-section .taka {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .donet-section > p {
+        width: 407px;
+        font-size: 12px;
+    }
+
+    .donet-plan-section {
+        margin-top: 54px;
+    }
+
+    .donet-plan-section .donet-plan-contents h1 {
+        font-size: 35px;
+    }
+
+    .donet-plan-section .donet-plan-contents p {
+        width: 348px;
+    }
+
+    .donet-plan-section .donet-plan-cards {
+        grid-template-columns: 360px;
+        grid-template-rows: repeat(3,352);
+        grid-row-gap: 24px;
+    }
+
+    .depends-section-responsive-left {
+        flex-direction: column-reverse;
+    }
+
+    .depends-section-responsive-right{
+        flex-direction: column;
+    }
+
+    .depends-section .depends-section-contect {
+        width: 329px;
+    }
+
+    .depends-section .depends-section-contect h1 {
+        font-size: 35px;
+    }
+
+    .depends-section-img img{
+        width: 400px;
+    }
+    .depends-section .depends-left-section {
+        margin-left: -81px;
+    }
+
+    .update-section .update-section-content p {
+        width: 378px;
+    }
+
+    .update-section .update-section-card {
+        width: 420px;
+    }
+
+    .donet-section .taka-input input {
+        width: 392px;
+    }
+
+    .update-section .update-section-content h1 {
+        width: 393px;
+    }
+
+    .update-section .update-section-card .form button {
+        width: 109px;
+    }
+
+    .update-section .update-section-card .form input {
+        width: 217px;
+    }
+
+    .header .header-contect h1 {
+        font-size: 31px;
+    }
+
+    .header .header-contect p {
+        font-size: 8px;
+    }
+  }
+
+  @media (width: 375px){
+    .donet-section > p {
+        width: 356px;
+    }
+
+    .donet-section .taka-input input {
+        width: 358px;
+    }
+
+    .depends-section-img img {
+        width: 363px;
+    }
+
+    .depends-section .depends-left-section {
+        margin-left: -4px;
+    }
+
+    .depends-section .depends-section-contect {
+        margin-right: 4px;
+    }
+
+    .update-section .update-section-content p {
+        width: 314px;
+    }
+
+    .update-section .update-section-content h1 {
+        width: 364px;
+    }
+
+    .update-section .update-section-card {
+        width: 374px;
+    }
+  }
+
+
+  @media (width: 320px){
+    
+    .donet-section > p {
+        width: 302px;
+    }
+    
+    .donet-section .taka-input input {
+        width: 260px;
+    }
+
+    .donet-plan-section .donet-plan-contents p {
+        width: 288px;
+    }
+
+    .donet-plan-section .donet-plan-cards {
+        grid-template-columns: 310px;
+    }
+
+    .donet-plan-section .donet-plan-cards p {
+        font-size: 17px;
+        width: 238px;
+    }
+
+    .depends-section-img img {
+        width: 311px;
+    }
+
+    .depends-section .depends-section-contect p {
+        font-size: 10px;
+    }
+
+    .depends-section .depends-section-contect h1 {
+        font-size:  23px;
+    }
+
+    .depends-section .depends-section-contect {
+        margin-right: -20px;
+        width: 288px;
+    }
+
+    .depends-section .depends-left-section {
+        margin-left: 1px;
+    }
+
+    .update-section .update-section-content p {
+        width: 276px;
+        font-size: 13px;
+    }
+
+    .update-section .update-section-content h1 {
+        width: 281px;
+        font-size: 35px;
+    }
+
+    .update-section .update-section-card .form button {
+        width: 89px;
+    }
+
+    .update-section .update-section-card .form input {
+        width: 174px;
+    }
+
+    .update-section .update-section-card {
+        width: 318px;
+    }
+  }
